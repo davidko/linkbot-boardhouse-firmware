@@ -1,0 +1,13 @@
+This repository contains firmware files for Barobo Linkbots and Z-Link dongles.
+Each directory contains intel hex files, and the directory names are the chip(s)
+they should be flashed onto.
+
+For the ATMEGA128RFA1 chip, set fuses to:
+High Fuse: 0xD8
+Low Fuse: 0xEF
+Extended Fuse: 0xFF
+
+For the ATMEGA32U2, set fuses to:
+High Fuse: 0xD9
+Low Fuse: 0xFF
+Extended Fuse: 0xFF
